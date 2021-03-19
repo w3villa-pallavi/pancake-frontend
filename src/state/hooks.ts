@@ -243,6 +243,10 @@ export const useIsHistoryPaneOpen = () => {
   return useSelector((state: State) => state.predictions.isHistoryPaneOpen)
 }
 
+export const useIsChartPaneOpen = () => {
+  return useSelector((state: State) => state.predictions.isChartPaneOpen)
+}
+
 export const useInitializePredictions = () => {
   const dispatch = useDispatch()
 
