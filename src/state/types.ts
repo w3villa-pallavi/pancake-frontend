@@ -193,7 +193,7 @@ export interface PredictionsState {
 
 export interface State {
   achievements: AchievementState
-  block: Block
+  block: BlockState
   farms: FarmsState
   prices: PriceState
   pools: PoolsState
