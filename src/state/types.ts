@@ -148,8 +148,8 @@ export interface BlockState {
 // Predictions
 
 export enum BetPosition {
-  BULL = 'bull',
-  BEAR = 'bear',
+  BULL = 'Bull',
+  BEAR = 'Bear',
 }
 
 export enum PredictionStatus {
@@ -172,6 +172,24 @@ export interface Round {
   bullBets: number
   bearAmount: number
   bullAmount: number
+  bets?: Bet[]
+}
+
+export interface Bet {
+  id: string
+  hash: string
+  amount: number
+  position: BetPosition
+  claimed: boolean
+  user: PredictionUser
+}
+
+export interface PredictionUser {
+  id: string
+  address: string
+  block: number
+  totalBets: number
+  totalBNB: number
 }
 
 export interface RoundData {
