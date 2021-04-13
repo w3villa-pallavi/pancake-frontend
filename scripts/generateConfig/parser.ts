@@ -37,7 +37,7 @@ export const getPools = (data) => {
       stakingTokenAddress: pool?.quote_token?.mainnet_address,
       contractAddress: {
         56: pool.contract_address,
-        97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
+        97: '0xd95e01fd9a860a33c5c4d60e220c8e8cfbdc0e34',
       },
       poolCategory: pool.category,
       projectLink: pool.project_url,
