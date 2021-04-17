@@ -487,7 +487,7 @@ const tokens = {
       97: '',
     },
     decimals: 18,
-    projectLink: 'http://stablexswap.com/',
+    projectLink: 'https://stablexswap.com/',
   },
   nar: {
     symbol: 'NAR',
@@ -685,7 +685,7 @@ const tokens = {
       97: '',
     },
     decimals: 18,
-    projectLink: 'http://www.makerdao.com/',
+    projectLink: 'https://www.makerdao.com/',
   },
   ada: {
     symbol: 'ADA',
@@ -793,7 +793,7 @@ const tokens = {
       97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
     },
     decimals: 18,
-    projectLink: 'http://bch.info/',
+    projectLink: 'https://bch.info/',
   },
   yfi: {
     symbol: 'YFI',
@@ -1037,6 +1037,69 @@ const tokens = {
     },
     decimals: 18,
     projectLink: 'https://itam.network/',
+  },
+  arpa: {
+    symbol: 'ARPA',
+    address: {
+      56: '0x6f769e65c14ebd1f68817f5f1dcdb61cfa2d6f7e',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://arpachain.io/',
+  },
+  eps: {
+    symbol: 'EPS',
+    address: {
+      56: '0xa7f552078dcc247c2684336020c03648500c6d9f',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://ellipsis.finance/',
+  },
+  jgn: {
+    symbol: 'JGN',
+    address: {
+      56: '0xc13b7a43223bb9bf4b69bd68ab20ca1b79d81c75',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://jgndefi.com/',
+  },
+  tlm: {
+    symbol: 'TLM',
+    address: {
+      56: '0x2222227e22102fe3322098e4cbfe18cfebd57c95',
+      97: '',
+    },
+    decimals: 4,
+    projectLink: 'https://alienworlds.io/',
+  },
+  perl: {
+    symbol: 'PERL',
+    address: {
+      56: '0x0f9e4d49f25de22c2202af916b681fbb3790497b',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://perlinx.finance/',
+  },
+  alpa: {
+    symbol: 'ALPA',
+    address: {
+      56: '0xc5e6689c9c8b02be7c49912ef19e79cf24977f03',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://bsc.alpaca.city/',
+  },
+  hzn: {
+    symbol: 'HZN',
+    address: {
+      56: '0xc0eff7749b125444953ef89682201fb8c6a917cd',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://horizonprotocol.com/',
   },
 }
 
